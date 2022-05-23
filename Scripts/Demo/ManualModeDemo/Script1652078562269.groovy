@@ -29,7 +29,7 @@ WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword
 
 WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.verifyTextPresent('Welcome', false)
+WebUI.verifyTextPresent('Welcome789', false)
 
 WebUI.closeBrowser()
 
